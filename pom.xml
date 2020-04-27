@@ -11,6 +11,7 @@
         <module>simple-web-service</module>
         <module>simple-web-service-consumer</module>
         <module>eureka-server</module>
+        <module>eureka-server-ha</module>
     </modules>
 
 
