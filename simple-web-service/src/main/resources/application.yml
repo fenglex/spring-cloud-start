@@ -1,10 +1,10 @@
 spring:
   application:
     name: simple-web-service
-  cloud:
-    service-registry:
-      auto-registration:
-        enabled:
+#  cloud:
+#    service-registry:
+#      auto-registration:
+#        enabled: true
 server:
   port: 8000
 logging:                                # 配置日志级别，让hibernate打印出执行的SQL
@@ -25,4 +25,4 @@ eureka:
   client:
     service-url:
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://user:password123@localhost:8761/eureka/

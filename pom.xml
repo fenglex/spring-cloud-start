@@ -12,6 +12,7 @@
         <module>simple-web-service-consumer</module>
         <module>eureka-server</module>
         <module>eureka-server-ha</module>
+        <module>eureka-server-auth</module>
     </modules>
 
 
