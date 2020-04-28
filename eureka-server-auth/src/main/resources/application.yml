@@ -11,6 +11,8 @@ eureka:
   datacenter: my-datacenter
   environment: test-environment
   client:
+    healthcheck: # 启用eureka的健康检查，这样就会将自己的健康状态传播到eureka-server
+      enabled: true
     register-with-eureka: false
     service-url:
       defaultZone: http://user:password123@localhost:8761/eureka
